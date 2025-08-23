@@ -14,3 +14,4 @@ public class Small {
         sc.close();   
 }
 }
+
