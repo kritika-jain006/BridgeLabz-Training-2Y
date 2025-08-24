@@ -9,5 +9,6 @@ public class Employee {
             System.out.println("Bonus ampount: "+b);
         }
         System.out.println("no bonus");
+        sc.close();
     }
 }
