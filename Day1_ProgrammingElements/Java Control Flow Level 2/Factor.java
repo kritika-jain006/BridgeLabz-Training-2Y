@@ -12,5 +12,6 @@ public class Factor {
         } else {
             System.out.println("Please enter a positive integer.");
         }
+        sc.close();
     }
 }
