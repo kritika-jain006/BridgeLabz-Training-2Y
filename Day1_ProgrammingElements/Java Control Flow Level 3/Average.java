@@ -34,7 +34,7 @@ public class Average {
             remarks = "Level 1,too below agency-normalized standards";
         }
         else{
-            grade = 'R';
+            grade = "R";
             remarks = "Remedial standards";
         }
 
@@ -42,5 +42,6 @@ public class Average {
         System.out.printf("Percentage: %.2f%%\n", percentage);
         System.out.println("Grade: " + grade);
         System.out.println("Remarks: " + remarks);
+        sc.close();
     }
 }
